@@ -1,0 +1,69 @@
+﻿<Page x:Class="DemoExam.Pages.EmployeePages.AddRequestPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DemoExam.Pages.EmployeePages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddRequestPage">
+
+    <Grid Background="#202020">
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Text="Добавление заявки"
+                   Foreground="White"
+                   FontSize="24"/>
+
+        <Border Width="200"
+                VerticalAlignment="Center"
+                BorderThickness="1"
+                BorderBrush="MediumPurple"
+                Grid.Row="1">
+            <StackPanel Margin="10">
+                <TextBlock Text="Техник:"
+                           Foreground="White"/>
+                <ComboBox x:Name="CBMaster"
+                          SelectedValuePath="MasterID"
+                          DisplayMemberPath="Name"/>
+                
+                <TextBlock Text="Клиент:"
+                           Foreground="White"/>
+                <ComboBox x:Name="CBClient"
+                          SelectedValuePath="ClientID"
+                          DisplayMemberPath="Name"/>
+                
+                <TextBlock Text="Устройство:"
+                           Foreground="White"/>
+                <ComboBox x:Name="CBTechType"
+                          SelectedValuePath="TechTypeID"
+                          DisplayMemberPath="TechType"/>
+                
+                <TextBlock Text="Модель/Название"
+                           Foreground="White"/>
+                <TextBox x:Name="TBTechModel"
+                         Text="{Binding TechModel}"/>
+                
+                <TextBlock Text="Описание:"
+                           Foreground="White"/>
+                <TextBox x:Name="TBDescription"
+                         Height="100"
+                         Text="{Binding Description}"/>
+            </StackPanel>
+        </Border>
+
+        <Button x:Name="BAddRequest"
+                Content="Добавить"
+                Grid.Row="2"
+                Width="100"
+                Height="40"
+                Click="BAddRequest_Click"/>
+    </Grid>
+</Page>

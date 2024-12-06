@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|d:\\\u044F\u0437\u044B\u043A\u0438\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\demoexam\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\demoexam\\demoexam\\pages\\employeepages\\addrequestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\employeepages\\addrequestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|d:\\\u044F\u0437\u044B\u043A\u0438\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\demoexam\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\demoexam\\demoexam\\pages\\employeeworkpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\employeeworkpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddRequestPage.xaml",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\AddRequestPage.xaml",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\EmployeePages\\AddRequestPage.xaml",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\AddRequestPage.xaml",
+              "RelativeToolTip": "DemoExam\\Pages\\EmployeePages\\AddRequestPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T21:59:55.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeWorkPage.xaml",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeeWorkPage.xaml",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\EmployeeWorkPage.xaml",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeeWorkPage.xaml",
+              "RelativeToolTip": "DemoExam\\Pages\\EmployeeWorkPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T21:59:18.817Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
