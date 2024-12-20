@@ -30,22 +30,7 @@ namespace DemoExam.Pages
             App.LoggedUser = App.DB.Users.FirstOrDefault(x => x.UserLogin == TBLogin.Text && x.UserPassword == PBPassword.Password);
             if (App.LoggedUser != null )
             {
-                if (App.LoggedUser.UserTypeID == 1)
-                {
-
-                }
-                if (App.LoggedUser.UserTypeID == 2)
-                {
-                    NavigationService.Navigate(new EmployeeWorkPage());
-                }
-                if (App.LoggedUser.UserTypeID == 3)
-                {
-
-                }
-                if (App.LoggedUser.UserTypeID == 3)
-                {
-
-                }
+                NavigationService.Navigate(new EmployeeWorkPage());
             }
             else
             {

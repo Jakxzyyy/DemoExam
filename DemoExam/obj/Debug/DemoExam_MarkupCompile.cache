@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\App.xaml
-5-903686950
+7-1727161192
 22088840309
-19-1495962935
-18-1219630871
-MainWindow.xaml;Pages\EmployeePages\AddRequestPage.xaml;Pages\EmployeePages\RequestsListViewPage.xaml;Pages\EmployeeWorkPage.xaml;Pages\LoginPage.xaml;
+2170360939
+201728143589
+MainWindow.xaml;Pages\ClientPages\CommentsPage.xaml;Pages\EmployeePages\AddRequestPage.xaml;Pages\EmployeePages\RequestsListViewPage.xaml;Pages\EmployeePages\StatsPage.xaml;Pages\EmployeeWorkPage.xaml;Pages\LoginPage.xaml;
 
 False
 

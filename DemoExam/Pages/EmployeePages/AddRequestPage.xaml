@@ -6,7 +6,8 @@
       xmlns:local="clr-namespace:DemoExam.Pages.EmployeePages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="AddRequestPage">
+      Title="AddRequestPage"
+      Loaded="Page_Loaded">
 
     <Grid Background="#202020">
 
@@ -16,51 +17,82 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <TextBlock HorizontalAlignment="Center"
+        <TextBlock x:Name="TBMainLabel"
+                   HorizontalAlignment="Center"
                    VerticalAlignment="Center"
-                   Text="Добавление заявки"
                    Foreground="White"
                    FontSize="24"/>
+
+        <Button x:Name="BBack"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Назад"
+                Margin="5"
+                Height="20"
+                Width="50"
+                Background="Red"
+                Click="BBack_Click"/>
 
         <Border Width="200"
                 VerticalAlignment="Center"
                 BorderThickness="1"
                 BorderBrush="MediumPurple"
                 Grid.Row="1">
-            <StackPanel Margin="10">
+            <StackPanel Margin="10"
+                        x:Name="SPMain">
                 <TextBlock Text="Техник:"
-                           Foreground="White"/>
+                           Foreground="White"
+                           Tag="ForEdit"/>
                 <ComboBox x:Name="CBMaster"
-                          SelectedValuePath="MasterID"
-                          DisplayMemberPath="Name"/>
+                          SelectedValuePath="UserID"
+                          DisplayMemberPath="Name"
+                          SelectedValue="{Binding MasterID}"
+                          Tag="ForEdit"/>
                 
                 <TextBlock Text="Клиент:"
                            Foreground="White"/>
                 <ComboBox x:Name="CBClient"
-                          SelectedValuePath="ClientID"
-                          DisplayMemberPath="Name"/>
+                          SelectedValuePath="UserID"
+                          DisplayMemberPath="Name"
+                          SelectedValue="{Binding ClientID}"/>
                 
                 <TextBlock Text="Устройство:"
                            Foreground="White"/>
                 <ComboBox x:Name="CBTechType"
                           SelectedValuePath="TechTypeID"
-                          DisplayMemberPath="TechType"/>
+                          DisplayMemberPath="TechType"
+                          SelectedValue="{Binding TechTypeID}"/>
                 
-                <TextBlock Text="Модель/Название"
+                <TextBlock Text="Модель/Название:"
                            Foreground="White"/>
                 <TextBox x:Name="TBTechModel"
                          Text="{Binding TechModel}"/>
-                
-                <TextBlock Text="Описание:"
+
+                <TextBlock Text="Дата начала ремонта:"
                            Foreground="White"/>
+                <DatePicker x:Name="DPStartDate"
+                            SelectedDate="{Binding StartDate}"/>
+
+                <TextBlock Text="Статуc заказа"
+                           Foreground="White"
+                           Tag="ForEdit"/>
+                <ComboBox x:Name="CBStatus"
+                          SelectedValuePath="RequestStatusID"
+                          DisplayMemberPath="Status"
+                          SelectedValue="{Binding RequestStatusID}"
+                          Tag="ForEdit"/>
+
+                <TextBlock Text="Описание:"
+                           Foreground="White"
+                           Tag="ForEdit"/>
                 <TextBox x:Name="TBDescription"
-                         Height="100"
-                         Text="{Binding Description}"/>
+                         Height="85"
+                         Text="{Binding Description}"
+                         Tag="ForEdit"/>
             </StackPanel>
         </Border>
 
         <Button x:Name="BAddRequest"
-                Content="Добавить"
                 Grid.Row="2"
                 Width="100"
                 Height="40"

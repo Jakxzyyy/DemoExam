@@ -28,3 +28,9 @@ D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\obj
 D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\obj\Debug\DemoExam.pdb
 D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\obj\Debug\Pages\EmployeePages\AddRequestPage.g.cs
 D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\obj\Debug\Pages\EmployeePages\AddRequestPage.baml
+D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\obj\Debug\Pages\ClientPages\CommentsPage.g.cs
+D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\obj\Debug\Pages\EmployeePages\StatsPage.g.cs
+D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\obj\Debug\Pages\ClientPages\CommentsPage.baml
+D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\obj\Debug\Pages\EmployeePages\StatsPage.baml
+D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\bin\Debug\MessagingToolkit.QRCode.dll
+D:\Языки\Проекты\DemoExam\Приложение\DemoExam\DemoExam\bin\Debug\ru\EntityFramework.SqlServer.resources.dll

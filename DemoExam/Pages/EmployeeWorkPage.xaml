@@ -19,6 +19,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="7*"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
@@ -27,20 +28,13 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="1"
-                    Grid.Column="0"
-                    Margin="5">
-            <Button x:Name="BRequests"
-                    Content="Заявки"
-                    Margin="0,0,0,5"
-                    Style="{StaticResource ButtonStyle}"
-                    Click="BRequests_Click"/>
-            <Button x:Name="BStats"
-                    Content="Статистика"
-                    Margin="0,0,0,5"
-                    Style="{StaticResource ButtonStyle}"
-                    Click="BStats_Click"/>
-        </StackPanel>
+        <StackPanel Grid.Row="0"
+                    Grid.Column="1"
+                    Margin="10"
+                    Orientation="Horizontal">
+            
+
+        </StackPanel> 
 
         <Border Grid.Column="1"
                 Grid.Row="1"
@@ -72,5 +66,32 @@
                     Style="{StaticResource ButtonStyle}"
                     Click="BChangeRequest_Click"/>
         </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <Button x:Name="BComments"
+                    Content="Коментарии"
+                    Margin="5"
+                    Style="{StaticResource ButtonStyle}"
+                    Click="BComments_Click"/>
+            <Button x:Name="BStats"
+                    Content="Статистика"
+                    Margin="5"
+                    Style="{StaticResource ButtonStyle}"
+                    Click="BStats_Click"/>
+
+            <Image x:Name="IQR"
+                   Margin="5"/>
+        </StackPanel>
+
+        <Button x:Name="BExit"
+                Grid.Column="2"
+                Width="75"
+                Height="20"
+                Content="Назад"
+                Background="IndianRed"
+                Click="BExit_Click"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="5"/>
     </Grid>
 </Page>

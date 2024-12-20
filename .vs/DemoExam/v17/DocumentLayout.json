@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|d:\\\u044F\u0437\u044B\u043A\u0438\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\demoexam\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\demoexam\\demoexam\\pages\\employeepages\\addrequestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\employeepages\\addrequestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\employeepages\\addrequestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|d:\\\u044F\u0437\u044B\u043A\u0438\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\demoexam\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\demoexam\\demoexam\\pages\\employeeworkpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\employeepages\\addrequestpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\employeepages\\addrequestpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\employeeworkpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\employeeworkpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|d:\\\u044F\u0437\u044B\u043A\u0438\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\demoexam\\\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\demoexam\\demoexam\\pages\\employeeworkpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\employeeworkpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\employeepages\\requestslistviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\employeepages\\requestslistviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\employeepages\\requestslistviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\employeepages\\requestslistviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\employeepages\\statspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\employeepages\\statspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\employeepages\\statspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\employeepages\\statspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\clientpages\\commentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\clientpages\\commentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\pages\\clientpages\\commentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\pages\\clientpages\\commentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\database\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\database\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\demoexam\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB4B7F3-65FF-4717-B140-879AD9897C8C}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +66,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\LoginPage.xaml",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "DemoExam\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T22:08:29.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StatsPage.xaml.cs",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\StatsPage.xaml.cs",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\EmployeePages\\StatsPage.xaml.cs",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\StatsPage.xaml.cs",
+              "RelativeToolTip": "DemoExam\\Pages\\EmployeePages\\StatsPage.xaml.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAD4vysAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T21:52:33.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StatsPage.xaml",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\StatsPage.xaml",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\EmployeePages\\StatsPage.xaml",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\StatsPage.xaml",
+              "RelativeToolTip": "DemoExam\\Pages\\EmployeePages\\StatsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T21:10:15.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommentsPage.xaml.cs",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\ClientPages\\CommentsPage.xaml.cs",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\ClientPages\\CommentsPage.xaml.cs",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\ClientPages\\CommentsPage.xaml.cs",
+              "RelativeToolTip": "DemoExam\\Pages\\ClientPages\\CommentsPage.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowCcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T21:27:04.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentsPage.xaml",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\ClientPages\\CommentsPage.xaml",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\ClientPages\\CommentsPage.xaml",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\ClientPages\\CommentsPage.xaml",
+              "RelativeToolTip": "DemoExam\\Pages\\ClientPages\\CommentsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T21:09:51.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestsListViewPage.xaml",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\RequestsListViewPage.xaml",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\EmployeePages\\RequestsListViewPage.xaml",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\RequestsListViewPage.xaml",
+              "RelativeToolTip": "DemoExam\\Pages\\EmployeePages\\RequestsListViewPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T17:17:07.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequestsListViewPage.xaml.cs",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\RequestsListViewPage.xaml.cs",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\EmployeePages\\RequestsListViewPage.xaml.cs",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\RequestsListViewPage.xaml.cs",
+              "RelativeToolTip": "DemoExam\\Pages\\EmployeePages\\RequestsListViewPage.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAswCUAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:11:20.621Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -29,20 +158,82 @@
               "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\AddRequestPage.xaml",
               "RelativeToolTip": "DemoExam\\Pages\\EmployeePages\\AddRequestPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-06T21:59:55.767Z",
+              "WhenOpened": "2024-12-10T15:17:33.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "Requests.cs",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\DataBase\\Requests.cs",
+              "RelativeDocumentMoniker": "DemoExam\\DataBase\\Requests.cs",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\DataBase\\Requests.cs",
+              "RelativeToolTip": "DemoExam\\DataBase\\Requests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:57:22.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "DemoExam\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T16:42:46.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeWorkPage.xaml.cs",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeeWorkPage.xaml.cs",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\EmployeeWorkPage.xaml.cs",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeeWorkPage.xaml.cs",
+              "RelativeToolTip": "DemoExam\\Pages\\EmployeeWorkPage.xaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:24:53.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EmployeeWorkPage.xaml",
               "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeeWorkPage.xaml",
               "RelativeDocumentMoniker": "DemoExam\\Pages\\EmployeeWorkPage.xaml",
               "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeeWorkPage.xaml",
               "RelativeToolTip": "DemoExam\\Pages\\EmployeeWorkPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-06T21:59:18.817Z",
+              "WhenOpened": "2024-12-10T15:20:08.484Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddRequestPage.xaml.cs",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\AddRequestPage.xaml.cs",
+              "RelativeDocumentMoniker": "DemoExam\\Pages\\EmployeePages\\AddRequestPage.xaml.cs",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\Pages\\EmployeePages\\AddRequestPage.xaml.cs",
+              "RelativeToolTip": "DemoExam\\Pages\\EmployeePages\\AddRequestPage.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAWwB8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T15:17:35.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DemoExam\\App.xaml.cs",
+              "ToolTip": "D:\\\u042F\u0437\u044B\u043A\u0438\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\DemoExam\\\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\\DemoExam\\DemoExam\\App.xaml.cs",
+              "RelativeToolTip": "DemoExam\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:09:42.385Z"
             }
           ]
         }

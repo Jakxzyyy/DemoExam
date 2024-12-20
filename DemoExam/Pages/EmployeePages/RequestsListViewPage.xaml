@@ -20,11 +20,49 @@
     </Page.Resources>
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+
+        <Border BorderThickness="1"
+                BorderBrush="MediumPurple">
+        <StackPanel Orientation="Horizontal"
+                    Margin="10">
+            <TextBox x:Name="TBSearch"
+                     Width="150"
+                     Height="20"
+                     Background="#191919"
+                     Foreground="White"
+                     TextChanged="TBSearch_TextChanged"/>
+            
+            <Separator Width="20" Visibility="Hidden"/>
+            
+            <ComboBox x:Name="CBRequestStatuses"
+                      SelectedValuePath="RequestStatusID"
+                      DisplayMemberPath="Status"
+                      Width="150"
+                      Height="20"
+                      Background="#191919"
+                      SelectionChanged="CBRequestStatuses_SelectionChanged">
+                <ComboBox.Resources>
+                    <Style TargetType="ComboBoxItem">
+                        <Setter Property="Background" Value="#191919"/>
+                        <Setter Property="Foreground" Value="White"/>
+                    </Style>
+                </ComboBox.Resources>
+            </ComboBox>
+        </StackPanel>
+        </Border>
+        
         <DataGrid x:Name="DGRequests"
                   Background="#202020"
                   AutoGenerateColumns="False"
+                  SelectedCellsChanged="DGRequests_SelectedCellsChanged"
                   CellStyle="{StaticResource CellStyle}"
-                  ColumnHeaderStyle="{StaticResource HeaderStyle}">
+                  ColumnHeaderStyle="{StaticResource HeaderStyle}"
+                  d:ItemsSource="{d:SampleData ItemCount=10}"
+                  Grid.Row="1">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="№ заявки" Binding="{Binding RequestID}"/>
                 <DataGridTextColumn Header="Вид устройства" Binding="{Binding TechTypes.TechType}" />

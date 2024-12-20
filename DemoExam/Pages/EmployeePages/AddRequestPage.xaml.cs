@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,12 +23,45 @@ namespace DemoExam.Pages.EmployeePages
     /// </summary>
     public partial class AddRequestPage : Page
     {
-        Requests newRequest;
+        Requests newRequest = new Requests();
+        bool isNew = false;
         public AddRequestPage()
         {
             InitializeComponent();
-            CBClient.ItemsSource = App.DB.Users.ToList();
+            TBMainLabel.Text = "Добавление заявки";
+            BAddRequest.Content = "Добавить";
+            isNew = true;
+            foreach (FrameworkElement obj in SPMain.Children)
+            { 
+               obj.IsEnabled = true;
+            }
+            newRequest.RequestID = App.DB.Requests.OrderByDescending(x => x.RequestID).First().RequestID + 1;
+        }
+
+        public AddRequestPage(Requests requestToEdit)
+        {
+            InitializeComponent();
+            isNew = false;
+            newRequest = requestToEdit;
+            TBMainLabel.Text = "Редактирование заявки";
+            BAddRequest.Content = "Сохранить";
+            foreach (FrameworkElement obj in SPMain.Children)
+            {
+                if (obj.Tag != null)
+                {
+                    obj.IsEnabled = true;
+                }
+                else
+                {
+                    obj.IsEnabled = false;
+                }
+            }
+        }
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            CBClient.ItemsSource = App.DB.Users.Where(x => x.UserTypeID == 4).ToList();
             CBMaster.ItemsSource = App.DB.Users.Where(x => x.UserTypeID == 2).ToList();
+            CBStatus.ItemsSource = App.DB.RequestStatuses.ToList();
             CBTechType.ItemsSource = App.DB.TechTypes.ToList();
             DataContext = newRequest;
         }
@@ -34,40 +69,59 @@ namespace DemoExam.Pages.EmployeePages
         private void BAddRequest_Click(object sender, RoutedEventArgs e)
         {
             string errorMessage = string.Empty;
-            if (CBMaster.SelectedValue == null)
+            if (newRequest.MasterID == null)
             {
                 errorMessage += "\nВыберите техника";
-                return;
             }
-            if (CBClient.SelectedValue == null)
+            if (newRequest.ClientID == null)
             {
                 errorMessage += "\nВыберите клиента";
-                return;
             }
-            if (CBTechType.SelectedValue == null)
+            if (newRequest.TechTypeID == null)
             {
                 errorMessage += "\nВыберите вид устройства";
-                return;
             }
-            if (String.IsNullOrWhiteSpace(TBTechModel.Text))
+            if (String.IsNullOrWhiteSpace(newRequest.TechModel))
             {
                 errorMessage += "Укажите название устройства";
-                return;
             }
-            if (String.IsNullOrWhiteSpace(TBDescription.Text))
+            if (String.IsNullOrWhiteSpace(newRequest.Description))
             {
-                errorMessage += "Укажите описание";
-                return;
+                errorMessage += "\nУкажите описание";
+            }
+            if (newRequest.RequestStatusID == null)
+            {
+                errorMessage += "\nВыберите статус заказа";
+            }
+            if (newRequest.StartDate == null)
+            {
+                errorMessage += "\nВыберите дату начала ремонта";
             }
             if (String.IsNullOrEmpty(errorMessage))
             {
-                newRequest.StartDate = DateTime.Now;
-                newRequest.RequestStatusID = 3;
-                App.DB.Requests.Add(newRequest);
-                App.DB.SaveChanges();
+                if (isNew == true)
+                {
+                    App.DB.Requests.Add(newRequest);
+                    App.DB.SaveChanges();
+                    newRequest = null;
+                    MessageBox.Show("Заявка добавлена");
+                }
+                else
+                {
+                    App.DB.SaveChanges();
+                    App.RequestToEdit = null;
+                    MessageBox.Show("Заявка изменена");
+                }
                 return;
             }
-            MessageBox.Show(errorMessage);
+            MessageBox.Show(errorMessage, "Ошибка!");
+        }
+
+        private void BBack_Click(object sender, RoutedEventArgs e)
+        {
+            App.RequestToEdit = null;
+            newRequest = null;
+            NavigationService.GoBack();
         }
     }
 }

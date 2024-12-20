@@ -1,0 +1,54 @@
+﻿<Page x:Class="DemoExam.Pages.ClientPages.CommentsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DemoExam.Pages.ClientPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CommentsPage">
+
+    <Grid>
+        <ListView x:Name="LVComments"
+                  Background="#202020"
+                  d:ItemsSource="{d:SampleData ItemCount=10}"
+                  MouseDoubleClick="LVComments_MouseDoubleClick">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Gray"
+                            BorderThickness="1"
+                            CornerRadius="10"
+                            Background="#191919">
+                        <StackPanel Margin="5"
+                                    Orientation="Horizontal">
+                            <StackPanel>
+                                <TextBlock Text="{Binding RequestID, StringFormat=Коментарий к заявке: №{0}}"
+                                           Foreground="White"/>
+                                <Separator Visibility="Hidden"/>
+                                <TextBlock Text="{Binding Requests.TechModel}"
+                                           Foreground="White"/>
+                            </StackPanel>
+                            
+                            <Separator Width="10" Visibility="Hidden"/>
+
+                            <StackPanel>
+                                <TextBlock Text="Сообщение:"
+                                           Foreground="White"/>
+                                <Separator Visibility="Hidden"/>
+                                <TextBlock Text="{Binding Message}"
+                                           Foreground="White"/>
+                            </StackPanel>
+                            
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+    </Grid>
+</Page>
